@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'dart:io';
-import 'dart:math';
+
 import 'package:google_mlkit_face_detection/google_mlkit_face_detection.dart';
 import 'package:ml_kit_face/generated/assets.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'detector_painters.dart';
-import 'face_analyzer.dart';
+
 import 'utils.dart';
 import 'package:image/image.dart' as imglib;
 import 'package:tflite_flutter/tflite_flutter.dart' as tfl;
